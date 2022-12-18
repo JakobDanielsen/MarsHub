@@ -1,0 +1,24 @@
+{
+  "name": "marshub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fun.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakobDanielsen/MarsHub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakobDanielsen/MarsHub/issues"
+  },
+  "homepage": "https://github.com/JakobDanielsen/MarsHub#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  }
+}
