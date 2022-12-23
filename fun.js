@@ -13,10 +13,7 @@ app.get("/",(req,res)=>{
 })
 
 const API_KEY = "NxmoiyGhG7hNBxNS2pffT6ps1F7kj0w34QpoqqtP";
-// mod.cjs
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
-
-// const marspic = document.querySelector("#marspic")
 
 async function getImage(date) {
     try {
